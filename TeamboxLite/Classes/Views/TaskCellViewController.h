@@ -13,6 +13,8 @@
 @property (nonatomic, weak) IBOutlet UILabel *taskName;
 @property (nonatomic, weak) IBOutlet UIView *taskView;
 @property (nonatomic, weak) IBOutlet UILabel *commentsCount;
+@property (weak, nonatomic) IBOutlet UILabel *assignedUser;
+@property (weak, nonatomic) IBOutlet UILabel *projectName;
 
 - (void)showAnimation;
 

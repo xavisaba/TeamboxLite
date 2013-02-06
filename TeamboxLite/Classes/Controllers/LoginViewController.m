@@ -10,9 +10,10 @@
 #import "LoginObject.h"
 #import "TasksListViewController.h"
 
-#define APP_TEAMBOX_ID          @"HXZTFQnj8z9pqdwAvKQps9hzGkiM3VF8zQvMVthQ"
-#define APP_TEAMBOX_SECRET      @"tXoWEvBqCwYcK41udM0pY5Nvy6hfIqSLYGlwr4Pe"
-#define APP_TEAMBOX_CALLBACKURL @"http://sergigracia.com/myFiles/teambox.php"
+#define APP_TEAMBOX_ID          @"GxJdb4sWB9oNBPq9VZIOxWfPxsEJRSnnTILDaJ8A"
+#define APP_TEAMBOX_SECRET      @"QrBBbDn2l7QogDgYNJC6RpHHtl6eheb3qjOKtHFo"
+#define APP_TEAMBOX_CALLBACKURL @"http://www.teamtic.es/teambox.php"
+
 
 @interface LoginViewController ()
 
