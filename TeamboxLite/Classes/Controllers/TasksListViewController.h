@@ -12,5 +12,6 @@
 @interface TasksListViewController : UIViewController <RKObjectLoaderDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet TaskCellViewController *taskCell;
+- (IBAction)newTaskButton:(id)sender;
 
 @end

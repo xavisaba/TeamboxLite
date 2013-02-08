@@ -11,6 +11,7 @@
 #import "PeopleController.h"
 #import "ProjectsController.h"
 #import "UsersController.h"
+#import "NewTaskViewController.h"
 
 @interface TasksListViewController ()
 
@@ -218,4 +219,8 @@
 //    [self.navigationController pushViewController:userProfileVC animated:YES];
 //}
 
+- (IBAction)newTaskButton:(id)sender {
+    NewTaskViewController *newTaskVC = [[NewTaskViewController alloc] initWithNibName:@"NewTaskViewController" bundle:nil];
+    [self.navigationController pushViewController:newTaskVC animated:YES];
+}
 @end

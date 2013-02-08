@@ -13,6 +13,8 @@
 		470E1D0E16BFA63E00883070 /* UsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470E1D0D16BFA63E00883070 /* UsersController.m */; };
 		4716295216B922E9008B471E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4716295116B922E9008B471E /* Person.m */; };
 		4716295516B922E9008B471E /* PeopleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4716295416B922E9008B471E /* PeopleController.m */; };
+		478A6A9716C2C821005606F1 /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A6A9516C2C821005606F1 /* NewTaskViewController.m */; };
+		478A6A9816C2C821005606F1 /* NewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478A6A9616C2C821005606F1 /* NewTaskViewController.xib */; };
 		555D862E167A07850043AB60 /* LoginObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 555D862D167A07850043AB60 /* LoginObject.m */; };
 		555D8661167A2BAF0043AB60 /* TasksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555D865F167A2BAF0043AB60 /* TasksListViewController.m */; };
 		555D8664167A2BE00043AB60 /* TasksListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555D8663167A2BE00043AB60 /* TasksListViewController.xib */; };
@@ -94,6 +96,9 @@
 		4716295116B922E9008B471E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		4716295316B922E9008B471E /* PeopleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleController.h; sourceTree = "<group>"; };
 		4716295416B922E9008B471E /* PeopleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleController.m; sourceTree = "<group>"; };
+		478A6A9416C2C821005606F1 /* NewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		478A6A9516C2C821005606F1 /* NewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
+		478A6A9616C2C821005606F1 /* NewTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewTaskViewController.xib; path = ../../Classes/Controllers/NewTaskViewController.xib; sourceTree = "<group>"; };
 		555D862C167A07850043AB60 /* LoginObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginObject.h; sourceTree = "<group>"; };
 		555D862D167A07850043AB60 /* LoginObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginObject.m; sourceTree = "<group>"; };
 		555D8650167A22E10043AB60 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
@@ -181,6 +186,8 @@
 				4706BFF016BD1315000AB434 /* ProjectsController.m */,
 				470E1D0C16BFA63E00883070 /* UsersController.h */,
 				470E1D0D16BFA63E00883070 /* UsersController.m */,
+				478A6A9416C2C821005606F1 /* NewTaskViewController.h */,
+				478A6A9516C2C821005606F1 /* NewTaskViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,6 +259,7 @@
 		55B680D91679CD9C006F8F7B /* NIBs */ = {
 			isa = PBXGroup;
 			children = (
+				478A6A9616C2C821005606F1 /* NewTaskViewController.xib */,
 				55B680DF1679CDC3006F8F7B /* LoginViewController.xib */,
 				555D8663167A2BE00043AB60 /* TasksListViewController.xib */,
 				555D866D167A6B770043AB60 /* TaskCellViewController.xib */,
@@ -426,6 +434,7 @@
 				555D8669167A6A250043AB60 /* wood_pattern.png in Resources */,
 				555D866E167A6B780043AB60 /* TaskCellViewController.xib in Resources */,
 				555D8670167A6E800043AB60 /* bubble.png in Resources */,
+				478A6A9816C2C821005606F1 /* NewTaskViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +458,7 @@
 				4706BFEE16BD12AF000AB434 /* Project.m in Sources */,
 				4706BFF116BD1315000AB434 /* ProjectsController.m in Sources */,
 				470E1D0E16BFA63E00883070 /* UsersController.m in Sources */,
+				478A6A9716C2C821005606F1 /* NewTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
